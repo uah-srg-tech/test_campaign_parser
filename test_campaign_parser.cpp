@@ -12,7 +12,7 @@
  */
 
 #include "test_campaign_parser.h"
-#include "../gss_qt/XMLParsingTools/XMLTools.h"
+#include "../massiva/XMLParsingTools/XMLTools.h"
 #include <iostream>
 #include <iomanip>
 #include <sstream>

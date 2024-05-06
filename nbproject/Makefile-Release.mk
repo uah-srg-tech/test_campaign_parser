@@ -64,10 +64,10 @@ ${CND_CONF}/test_campaign_parser.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_CONF}
 	${LINK.cc} -o ${CND_CONF}/test_campaign_parser ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o: ../gss_qt/XMLParsingTools/XMLTools.c
+${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o: ../massiva/XMLParsingTools/XMLTools.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/6e2d5a1d
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -Wall -I/C/msys/1.0/mingw32/include/libxml2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o ../gss_qt/XMLParsingTools/XMLTools.c
+	$(COMPILE.c) -O2 -Wall -I/C/msys/1.0/mingw32/include/libxml2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/6e2d5a1d/XMLTools.o ../massiva/XMLParsingTools/XMLTools.c
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
